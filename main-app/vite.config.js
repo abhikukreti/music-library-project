@@ -8,7 +8,7 @@ export default defineConfig({
     federation({
       name: 'main_app',
       remotes: {
-        music_library: 'http://localhost:5001/assets/remoteEntry.js',
+        music_library: 'https://astonishing-seahorse-d2decf.netlify.app/assets/remoteEntry.js',
       },
       shared: ['react', 'react-dom', '@tanstack/react-query'],
     }),
